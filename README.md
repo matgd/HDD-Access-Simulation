@@ -22,14 +22,14 @@ Program calculates travel distance of HDD's head, and time.
 
 Here's an example of running the program:  
 ---
-Write 'MAX' size of HDD: 5000  		# Block range in HDD is 1 - 5000.  
-Write 'TIME_PER_BLOCK': 0.1 		# Reads double. Head's speed defined by time per block.  
-Write 'HEAD_START' position: 2500	# Starting position of HDD's head.  
-Write 'DATA_PROCESS_TIME': 10		# When data is being processed (head reaches request) adds given time.  
+Write 'MAX' size of HDD: <b>5000</b>       <i># Block range in HDD is 1 - 5000.</i>    
+Write 'TIME_PER_BLOCK': <b>0.1</b>         <i># Reads double. Head's speed defined by time per block.</i>    
+Write 'HEAD_START' position: <b>2500</b>   <i># Starting position of HDD's head.</i>    
+Write 'DATA_PROCESS_TIME': <b>10</b>       <i># When data is being processed (head reaches request) adds given time.</i>    
   
-==== FCFS - Results ====  			
-Total course:  4307					# Total travel distance.  
-Total time:    630.7				# Total executing time.  
+==== FCFS - Results ====  
+Total course:  4307					<i># Total travel distance.</i>  
+Total time:    630.7				<i># Total executing time.</i>    
   
 ==== SSTF - Results ====  
 Total course:  2469  
