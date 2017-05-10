@@ -7,16 +7,16 @@ List of used algorithms:
 - FCFS
 - SSTF
 - SCAN
-- CSCAN
+- C-SCAN
 - LOOK
-- CLOOK    
+- C-LOOK    
 
 Program reades requests from the file called <i>"callouts.txt"</i>  
 In each line there is a single request.  
 Request is an integer from MIN to MAX.
 First "block" of the HDD is '1' but you decide about MAX (program asks you) so mind about that when generating requests.  
-You can generate them with help of my other Python program <i>int-txt-generator</i>.  
-Example "callouts.txt" file is in repository. The numbers in there don't reach above 500.    
+You can generate them with help of my other Python program in repository <i>int-txt-generator</i>.  
+Example <i>"callouts.txt"</i> file is in repository. The numbers in there don't reach above 500.    
 
 Program calculates travel distance of HDD's head, and time.  
 
