@@ -27,27 +27,27 @@ Write 'TIME_PER_BLOCK': <b>0.1</b>         <i># Reads double. Head's speed defin
 Write 'HEAD_START' position: <b>250</b>   <i># Starting position of HDD's head.</i>    
 Write 'DATA_PROCESS_TIME': <b>10</b>       <i># When data is being processed (head reaches request) adds given time.</i>    
   
-==== FCFS - Results ====
+==== FCFS - Results ====  
 Total course:  2057         <i># Total travel distance.</i>  
 Total time:    405.7        <i># Total executing time.</i>  
 
-==== SSTF - Results ====
+==== SSTF - Results ====  
 Total course:  703  
 Total time:    270.3
 
-==== SCAN - Results ====
+==== SCAN - Results ====  
 Total course:  749  
 Total time:    274.9
 
-==== C-SCAN - Results ====
+==== C-SCAN - Results ====  
 Total course:  972  
 Total time:    297.2
 
-==== LOOK - Results ====
+==== LOOK - Results ====  
 Total course:  703  
 Total time:    270.3
 
-==== C-LOOK - Results ====
+==== C-LOOK - Results ====  
 Total course:  896  
 Total time:    289.6
 
