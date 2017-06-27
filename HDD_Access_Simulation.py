@@ -5,7 +5,7 @@ HEAD_START = int(input("Write 'HEAD_START' position: "))
 DATA_PROCESS_TIME =  float(input("Write 'DATA_PROCESS_TIME': "))
 CALLOUTS_FILE = open("callouts.txt")
 
-print()
+print("\n")
 
 def FCFS(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -22,7 +22,7 @@ def FCFS(timePerBlock, head, cFile, dataProcessTime):
     print("==== FCFS - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()
+    print("\n")
 
 def SSTF(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -88,7 +88,7 @@ def SSTF(timePerBlock, head, cFile, dataProcessTime):
     print("==== SSTF - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()
+    print("\n")
 
 def SCAN(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -131,7 +131,7 @@ def SCAN(timePerBlock, head, cFile, dataProcessTime):
     print("==== SCAN - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()
+    print("\n")
 
 def CSCAN(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -172,7 +172,7 @@ def CSCAN(timePerBlock, head, cFile, dataProcessTime):
     print("==== C-SCAN - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()
+    print("\n")
 
 def LOOK(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -215,7 +215,7 @@ def LOOK(timePerBlock, head, cFile, dataProcessTime):
     print("==== LOOK - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()
+    print("\n")
 
 def CLOOK(timePerBlock, head, cFile, dataProcessTime):
     totalCourse = 0
@@ -256,7 +256,7 @@ def CLOOK(timePerBlock, head, cFile, dataProcessTime):
     print("==== C-LOOK - Results ====")
     print("Total course: ",totalCourse)
     print("Total time:   ",round(totalTime, 2))
-    print()    
+    print("\n")    
     
 FCFS(TIME_PER_BLOCK, HEAD_START, CALLOUTS_FILE, DATA_PROCESS_TIME)
 SSTF(TIME_PER_BLOCK, HEAD_START, CALLOUTS_FILE, DATA_PROCESS_TIME)
@@ -265,4 +265,4 @@ CSCAN(TIME_PER_BLOCK, HEAD_START, CALLOUTS_FILE, DATA_PROCESS_TIME)
 LOOK(TIME_PER_BLOCK, HEAD_START, CALLOUTS_FILE, DATA_PROCESS_TIME)
 CLOOK(TIME_PER_BLOCK, HEAD_START, CALLOUTS_FILE, DATA_PROCESS_TIME)
 CALLOUTS_FILE.close()
-input() # for console in order to read results
+input("\n") # for console (in Windows OS) in order to read results
