@@ -16,8 +16,8 @@ def execute(maxSize, minSize, timePerBlock, head, calloutsFile, dataProcessTime)
     listLeft.sort()
     listRight.sort()
 
-    [head - x for x in listLeft]
-    [x - head for x in listRight]
+    listLeft = [head - x for x in listLeft]
+    listRight = [x - head for x in listRight]
 
     if listLeft and not listRight:
         totalCourse += head - minSize
